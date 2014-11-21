@@ -2,5 +2,31 @@
 {% extends "base.html" %}
 
 {% block content %}
-home
+<div class="row">
+	<div class="col-md-4">
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				Вася Пупкин
+			</div>
+			<div class="panel-body">
+				<img src="{{STATIC_URL}}sportotype/img/avatar.jpg" width="auto" height="120px">
+			</div>
+		</div>
+		<div class="panel panel-primary">
+			<div class="panel-body">
+				<ul>
+					<li><a href="#">Профиль</a></li>
+					<li><a href="#">Приглашения</a></li>
+					<li><a href="#">Мероприятия</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		col2
+	</div>
+	<div class="col-md-4">
+		col3
+	</div>
+</div>
 {%endblock%}
